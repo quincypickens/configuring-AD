@@ -154,9 +154,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - At the top-left of the screen select New Script and paste the contents of the following script into it
 	- You can find the script [here](https://github.com/joshmadakor1/AD_PS/blob/master/1_CREATE_USERS.ps1)
 
-<p align="center">
-<img src="https://i.imgur.com/MpvLIbB.png" height="70%" width="70%" alt="Domain Controller"/> <img src="https://i.imgur.com/V4vIvre.png" height="70%" width="70%" alt="Domain Controller"/>
-</p>
 
 - Click the green arrow button near the top-middle of the screen
 	- This will run the script
