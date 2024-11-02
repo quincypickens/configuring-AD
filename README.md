@@ -5,7 +5,6 @@
 <h1>On-Premises Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within two Azure virtual machines.<br/>
 
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines)
@@ -17,8 +16,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Windows Server 2022
 - Windows 10
-
-
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -63,7 +60,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select Next and follow the prompts
 - Select Install to complete the installation
 
-
 <p align="center">
 <img src="https://i.imgur.com/IjfUZ0a.png" height="70%" width="70%" alt="Domain Controller"/> 
 	
@@ -89,8 +85,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	
 <p align="center">
 <img src="https://i.imgur.com/fZMDHBr.png" height="40%" width="40%" alt="Domain Controller"/> 
-	
-	
+		
 - Right-click mydomain.com and click Referesh to sort the new organizational units to the top
 - Go to the _ADMINS OU
 - Right-click the name of the OU --> New --> User
@@ -110,14 +105,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Select "Check Names" > OK > Apply
 - Log out of DC-1 as "labuser" and log back in as “mydomain.com\jane_admin”
 
-
-
 <p align="center">
 <img src="https://i.imgur.com/ViLtOhe.png" height="40%" width="40%" alt="Domain Controller"/> 
 </p>
  
-     
-
 <h3>Step 5: Join Client-1 to your domain (mydomain.com)
 </h3>
 
