@@ -68,16 +68,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/IjfUZ0a.png" height="70%" width="70%" alt="Domain Controller"/> 
 	
 - DC-1 will automatically restart
-- Log back into DC-1 as user: mydomain.com\labuser               
+- Log back into DC-1 as user: mydomain.com\labuser85 (Insert the user name you created)               
 
 <p align="center">
-<img src="https://i.imgur.com/oNp39DK.png" height="70%" width="70%" alt="Domain Controller"/> 
+<img src="https://i.imgur.com/q59L4FG.png" height="40%" width="40%" alt="Domain Controller"/> 
 	
 
 
 <h3>Step 4: Create an Admin and Normal User Account in Active Directory v1.15.8</h3>
      
-- On DC-1, open Server Manager
+- On DC-1, Start Menu --> Windows Administartive Tools --> Active Directory Users and Computers
 - Click Tools at the top-right of the screen
 - Select Active Directory Users and Computers
 
