@@ -103,7 +103,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Click the tab named "Member of" > select Add
 	- Type in the names of your domain administrators
 	- Select "Check Names" > OK > Apply
-- Log out of DC-1 as "labuser" and log back in as “mydomain.com\jane_admin”
+- Log out of DC-1 as "labuser85" and log back in as “mydomain.com\jane_admin”
 
 <p align="center">
 <img src="https://i.imgur.com/ViLtOhe.png" height="40%" width="40%" alt="Domain Controller"/> 
@@ -112,17 +112,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3>Step 5: Join Client-1 to your domain (mydomain.com)
 </h3>
 
-- Go back to the Azure portal
-- Navigate to the Client-1 Virtual Machine
-- On the left-hand side of the screen select Networking
-- Select the link next to the NIC > select DNS Server > Custom
-- Type in DC-1's private IP address
-- Click Save
-- After it is done updating, select Restart and select Yes
-
-<p align="center">
-<img src="https://i.imgur.com/z6UesO7.png" height="70%" width="70%" alt="Domain Controller"/> <img src="https://i.imgur.com/bt0yK17.png" height="70%" width="70%" alt="Domain Controller"/>  <img src="https://i.imgur.com/sB5edH5.png" height="70%" width="70%" alt="Domain Controller"/>
-</p>
+- Login to Client-1 as the original local admin (labuser85) and join it to the domain (computer will restart)
+- Login to the Domain Controller and verify Client-1 shows up in ADUC
+- Create a new OU named “_CLIENTS” and drag Client-1 into there
 
 - Log back into Client-1 using Microsoft Remote Desktop as the original local admin (labuser)
 - Right-click the Start menu and select System
@@ -135,7 +127,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p align="center">
-<img src="https://i.imgur.com/3HxJLpe.png" height="80%" width="80%" alt="Domain Controller"/> <img src="https://i.imgur.com/J8M4zBU.png" height="50%" width="50%" alt="Domain Controller"/>
+<img src="https://i.imgur.com/QvFRq6N.png" height="50%" width="50%" alt="Domain Controller"/> 
 </p>
 
 <h3>Step 6: Setup Remote Desktop for non-administrative users on Client-1
