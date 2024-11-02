@@ -154,22 +154,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - At the top-left of the screen select New Script and paste the contents of the following script into it
 	- You can find the script [here](https://github.com/joshmadakor1/AD_PS/blob/master/1_CREATE_USERS.ps1)
 
+<img src="https://i.imgur.com/iurMxoX.png" height="60%" width="60%" alt="Domain Controller"/>
 
-- Click the green arrow button near the top-middle of the screen
-	- This will run the script
-- Once the users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES
+- Click the green arrow button near the top-middle of the screen to run the script
+- Once the users have been created, go back to Active Directory Users and Computers --> mydomain.com --> _EMPLOYEES
 		- You will see all the accounts that were created
-- You can now log into Client-1 with one of the accounts that were created
-	- Try logging into Client-1 as user "base.milu" using the password "Password1"
+- You can now log into Client-1 with one of the random user accounts that were created
+	- Try logging into Client-1 as user "tudu.mat" using the password "Password1"
 
 <p align="center">
-<img src="https://i.imgur.com/3HN1Nf4.png" height="80%" width="80%" alt="Domain Controller"/> <img src="https://i.imgur.com/CeE8LGh.png" height="50%" width="50%" alt="Domain Controller"/>  <img src="https://i.imgur.com/7ZVBp8a.png" height="70%" width="70%" alt="Domain Controller"/>
+ <img src="https://i.imgur.com/cG755yF.png" height="50%" width="50%" alt="Domain Controller"/>  <img src="https://i.imgur.com/rkJqS2X.png" height="50%" width="50%" alt="Domain Controller"/>
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/EzgHWRs.png" height="70%" width="70%" alt="Domain Controller"/> <img src="https://i.imgur.com/hYFodxu.png" height="70%" width="70%" alt="Domain Controller"/>
+<img src="https://i.imgur.com/5P8QbSl.png" height="50%" width="50%" alt="Domain Controller"/>
 </p>
 
-
-
-🎉Congratulations! You have implementated on-premises Active Directory and created users within an Azure virtual machine!🎉
+You have implementated on-premises Active Directory and created users within an Azure virtual machine!
