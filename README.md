@@ -125,7 +125,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Type in password and press OK
 - Restart the computer 			
 
-
 <p align="center">
 <img src="https://i.imgur.com/QvFRq6N.png" height="50%" width="50%" alt="Domain Controller"/> 
 </p>
@@ -139,11 +138,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - On the right-hand side of the screen, select Remote Desktop
 - Under User Accounts, click "Select Users That Can Remotely Access This PC > select Add
 - Type in the name of your domain users
-- Select "Check Names" > OK > OK
+- Select "Check Names" --> OK
 
- 
  <p align="center">
-<img src="https://i.imgur.com/HgAXVMX.png" height="70%" width="70%" alt="Domain Controller"/> <img src="https://i.imgur.com/0QDUk5l.png" height="60%" width="60%" alt="Domain Controller"/>
+<img src="https://i.imgur.com/0nRm9k7.png" height="50%" width="50%" alt="Domain Controller"/> 5
 </p>
 
 <h3>Step 7: Create as many additional users as you would like and attempt to log into Client-1 with one of the users' profiles
