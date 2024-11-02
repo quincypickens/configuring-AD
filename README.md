@@ -113,7 +113,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p align="center">
-<img src="https://i.imgur.com/EapMhBs.png" height="70%" width="70%" alt="Domain Controller"/> <img src="https://i.imgur.com/vGb8Kx8.png" height="70%" width="70%" alt="Domain Controller"/>
+<img src="https://i.imgur.com/ViLtOhe.png" height="40%" width="40%" alt="Domain Controller"/> 
 </p>
  
      
