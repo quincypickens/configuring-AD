@@ -34,31 +34,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3>Step 2: Ensure Connectivity Between the Client and Domain Controller</h3>
 
 - Login to Client-1 using Microsoft Remote Desktop
-- Search for Command Prompt and open it
+- Windows Powershell
 - Ping DC-1's private IP Address 
 	
 <p align="center">
-<img src="https://i.imgur.com/ZNf5tIh.png" height="50%" width="50%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSjTYXb.png" height="50%" width="50%" alt="Azure Free Account"/> 
-	
-- Login to DC-1 using Microsoft Remote Desktop
-	- Start > Windows Administrative Tools > Windows Defender Firewall with Advanced Security > Inbound Rules
-	- Sort the list by protocols
-	- Find "Core Networking Diagnostics" and "ICMPv4" and enable these two inbound rules
-
-<p align="center">
-<img src="https://i.imgur.com/ZNf5tIh.pngg" height="50%" width="50%" alt="Azure Free Account"/> <img src="https://i.imgur.com/BY1Ohgb.png" height="80%" width="80%" alt="Azure Free Services"/>
-</p>
-
-- Log back into Client-1 and the command line will automatically begin pinging DC-1 successfully
-    
-<p align="center">
-<img src="https://i.imgur.com/890WIJB.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSjTYXb.png" height="70%" width="70%" alt="Azure Free Account"/>
-
+<img src="https://i.imgur.com/ZNf5tIh.png" height="50%" width="50%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSjTYXb.png" height="50%" width="50%" alt="Azure Free Account"/>
 
 <h3>Step 3: Install Active Directory</h3>
 
-- Log back into DC-1
-	- Open Server Manager
+- Ensure you are logged into DC-1
+	- Open Server Manager from Start menu
 	- Select "Add Roles and Features" > Follow the prompts
 	- At Server Roles, check "Active Directory Domain Services."
 		- Ignore how the picture below already says "Installed"
