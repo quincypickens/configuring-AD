@@ -73,29 +73,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p align="center">
 <img src="https://i.imgur.com/q59L4FG.png" height="40%" width="40%" alt="Domain Controller"/> 
 	
-
-
-<h3>Step 4: Create an Admin and Normal User Account in Active Directory v1.15.8</h3>
+<h3>Step 4: Create an Admin and Normal User Account in Active Directory </h3>
      
 - On DC-1, Start Menu --> Windows Administartive Tools --> Active Directory Users and Computers
 - Click Tools at the top-right of the screen
 - Select Active Directory Users and Computers
 
 <p align="center">
-<img src="https://i.imgur.com/udGHbGs.png" height="70%" width="70%" alt="Domain Controller"/> 
+<img src="https://i.imgur.com/vcUGkP3.png" height="40%" width="40%" alt="Domain Controller"/> 
 	
-- Right-click mydomain.com > New > Select Oranizational Unit (OU)
+- Right-click mydomain.com --> New --> Select Oranizational Unit (OU)
 - Create two OUs
 	- Name the first "_EMPLOYEES"
 	- Name the second "_ADMINS"
 	
 <p align="center">
-<img src="https://i.imgur.com/5wSZuA4.png" height="70%" width="70%" alt="Domain Controller"/> 
+<img src="https://i.imgur.com/fZMDHBr.png" height="40%" width="40%" alt="Domain Controller"/> 
 	
 	
 - Right-click mydomain.com and click Referesh to sort the new organizational units to the top
 - Go to the _ADMINS OU
-- Right-click the name of the OU > New > User
+- Right-click the name of the OU --> New --> User
 	- First/Last name: Jane Doe
 	- User login name: jane_admin
 	- Select Next
@@ -103,7 +101,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Uncheck all boxes
 	- Select Next and then select Finish
 <p align="center">
-<img src="https://i.imgur.com/nv6jc9p.png" height="70%" width="70%" alt="Domain Controller"/> <img src="https://i.imgur.com/uLopQTZ.png" height="70%" width="70%" alt="Domain Controller"/> 
+<img src="https://i.imgur.com/eSTQvrI.png" height="40%" width="40%" alt="Domain Controller"/> <img src="https://i.imgur.com/GQWbgao.png" height="40%" width="40%" alt="Domain Controller"/> 
 	
 - Go to the _ADMINS OU
 - Right-click Jane Doe > select Properties
