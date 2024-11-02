@@ -35,13 +35,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Login to Client-1 using Microsoft Remote Desktop
 - Search for Command Prompt and open it
-- Ping DC-1's private IP Address (for example, 10.1.0.4)
-	- Type "ping -t 10.1.0.4" into the command-line interface
-	- The ping request continually  times out due to the firewall settings
-		- To fix this, we need to enable ICMPv4 on DC-1's local Windows firewall
-
+- Ping DC-1's private IP Address 
+	
 <p align="center">
-<img src="https://i.imgur.com/U6UOqj5.png" height="70%" width="70%" alt="Azure Free Account"/> 
+<img src="https://i.imgur.com/ZNf5tIh.png" height="50%" width="50%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSjTYXb.png" height="50%" width="50%" alt="Azure Free Account"/> 
 	
 - Login to DC-1 using Microsoft Remote Desktop
 	- Start > Windows Administrative Tools > Windows Defender Firewall with Advanced Security > Inbound Rules
@@ -49,13 +46,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Find "Core Networking Diagnostics" and "ICMPv4" and enable these two inbound rules
 
 <p align="center">
-<img src="https://i.imgur.com/bw6eoLh.png" height="50%" width="50%" alt="Azure Free Account"/> <img src="https://i.imgur.com/BY1Ohgb.png" height="80%" width="80%" alt="Azure Free Services"/>
+<img src="https://i.imgur.com/ZNf5tIh.pngg" height="50%" width="50%" alt="Azure Free Account"/> <img src="https://i.imgur.com/BY1Ohgb.png" height="80%" width="80%" alt="Azure Free Services"/>
 </p>
 
 - Log back into Client-1 and the command line will automatically begin pinging DC-1 successfully
     
 <p align="center">
-<img src="https://i.imgur.com/890WIJB.png" height="70%" width="70%" alt="Azure Free Account"/> 
+<img src="https://i.imgur.com/890WIJB.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/tSjTYXb.png" height="70%" width="70%" alt="Azure Free Account"/>
 
 
 <h3>Step 3: Install Active Directory</h3>
