@@ -150,6 +150,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Log back into DC-1 as jane_admin
 - Search for "Powershell_ise,"
 - Right-click on Powershell_ise and open it as an administrator
+- Create a new file if needed
 - At the top-left of the screen select New Script and paste the contents of the following script into it
 	- You can find the script [here](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 
